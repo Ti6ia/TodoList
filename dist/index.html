@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <!-- <script src="../src/index.js" defer></script> -->
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <label for="addProject">Add Project</label>
+    <input type="text" id="addProject">
+    <button id="btnAddProject">Add</button>
+    
+    <br><br>
+
+    <label for="deleteProject">Delete Project</label>
+    <input type="text" id="deleteProject">
+    <button id="btnDeleteProject">Delete</button>
+
+    <br><br><br>
+
+    <div id="addTask">
+        <label for="addTaskName">Add Task Name</label>
+        <input type="text" id="addTaskName">
+        <br>
+        <label for="addTaskDueDate">Add Task Duedate</label>
+        <input id="addTaskDueDate" 
+            type="date" id="start" name="trip-start"
+            value="2018-07-22"
+            min="2018-01-01" max="2018-12-31">
+        <br>
+        <button id="btnAddTask">Add</button>
+    </div>
+
+    <br><br>
+
+    <label for="deleteTask">Delete Task</label>
+    <input type="text" id="deleteTask">
+    <button id="btnDeleteTask">Delete</button>
+</body>
+</html>
